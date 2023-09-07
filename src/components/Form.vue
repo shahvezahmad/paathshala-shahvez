@@ -7,7 +7,7 @@
         <label for="email">Enter your email: </label>
         <input type="email" name="email" id="email" required v-model="email" ref="emailField" />
 
-        <label for="tel">Enter your number: </label>
+        <label for="number">Enter your number: </label>
         <input
             type="text"
             name="number"
@@ -35,9 +35,10 @@
             >
         </div>
 
-        <div class="submit">
-            <button>Submit</button>
+        <div class="apply">
+            <button>Apply</button>
         </div>
+
     </form>
 </template>
 
@@ -63,7 +64,7 @@ export default {
        
         acceptNumber() {
             let cleaned = this.number.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
-            this.tel = !cleaned[2]
+            this.number = !cleaned[2]
                 ? cleaned[1]
                 : '(' + cleaned[1] + ') ' + cleaned[2] + (cleaned[3] ? '-' + cleaned[3] : '');
         },
@@ -127,28 +128,7 @@ input[type='checkbox'] {
 .terms input:focus {
     outline: none;
 }
-.pill {
-    display: inline-block;
-    margin: 20px 10px 0 0;
-    padding: 6px 12px;
-    background: #eee;
-    border-radius: 20px;
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: #777;
-    cursor: pointer;
-}
-.pill:hover {
-    background-color: #01a71db7;
-    color: #000000;
-}
 
-.pill:active {
-    background-color: #9b0404e1;
-    text-decoration: line-through;
-    color: #ffffff;
-}
 button {
     background: #1bad08;
     border: 0;
@@ -165,25 +145,8 @@ button:hover {
 button:active {
     transform: scale(0.9);
 }
-.submit {
+.apply {
     text-align: center;
 }
-.error {
-    color: #ff0062;
-    margin-top: 10px;
-    font-size: 0.8em;
-    font-weight: bold;
-}
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 </style>
