@@ -28,13 +28,6 @@
         <label for="skills">Skills: </label>
         <input type="skills" name="" id="skills" required v-model="skills" ref="skillsField" />
 
-        <div class="terms">
-            <label>
-                <input type="checkbox" name="terms" id="terms" required v-model="terms" />
-                Accept terms and conditions</label
-            >
-        </div>
-
         <div class="apply">
             <button>Apply</button>
         </div>
@@ -50,7 +43,6 @@ export default {
             email: '',
             number: '',
             role: 'frontend',
-            terms: false,
             skills: '',
         };
     },
@@ -115,18 +107,6 @@ input[type='checkbox'] {
     margin: 0 10px 0 0;
     position: relative;
     top: 2px;
-}
-.terms label {
-    cursor: pointer;
-}
-.terms label:hover {
-    color: #188809;
-}
-.terms input:hover {
-    outline: none;
-}
-.terms input:focus {
-    outline: none;
 }
 
 button {
