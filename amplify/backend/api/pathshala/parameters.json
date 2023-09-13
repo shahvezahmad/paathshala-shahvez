@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "pathshala",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-09-12T08:03:19.857Z"
+}

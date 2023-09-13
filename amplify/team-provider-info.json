@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pathshala-dev-124937-authRole",
+      "UnauthRoleArn": "arn:aws:iam::359610038085:role/amplify-pathshala-dev-124937-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::359610038085:role/amplify-pathshala-dev-124937-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-pathshala-dev-124937-deployment",
+      "UnauthRoleName": "amplify-pathshala-dev-124937-unauthRole",
+      "StackName": "amplify-pathshala-dev-124937",
+      "StackId": "arn:aws:cloudformation:eu-north-1:359610038085:stack/amplify-pathshala-dev-124937/c17ce720-513c-11ee-99d4-0eb936c6fbdc",
+      "AmplifyAppId": "d249ilchtr7esc"
+    },
+    "categories": {
+      "api": {
+        "pathshala": {}
+      }
+    }
+  }
+}
