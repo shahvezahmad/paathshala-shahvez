@@ -1,6 +1,14 @@
-# paathshala form project
+# Paathshala-form task
 
-Tech Stack - Javascript, Vue.js, AWS Amplify, AppSync, GraphQL
+Task Description:
+Build a basic frontend Form in Vue.js only.
+Generate a schema, and deploy it on AWS Amplify. Connect the schema to a DynamoDB table for seamless integration. Afterward, design an additional frontend page to retrieve and display the data from the backend table.
+
+
+Tech Stack: Javascript, Vue.js, AWS Amplify, AppSync, GraphQL
+
+
+Developed a Vue.js frontend application hosted on AWS Amplify, integrated with DynamoDB, enabling users to submit job applications and view candidate information. 
 
 
 ## Project Setup
