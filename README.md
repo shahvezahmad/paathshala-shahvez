@@ -11,9 +11,6 @@ Tech Stack: Javascript, Vue.js, AWS Amplify, AppSync, GraphQL
 Developed a Vue.js frontend application hosted on AWS Amplify, integrated with DynamoDB, enabling users to submit job applications and view candidate information. 
 
 
-Youtube Link - https://youtu.be/GEiRpFcl0_A?feature=shared
-
-
 ## Project Setup
 
 ```sh
